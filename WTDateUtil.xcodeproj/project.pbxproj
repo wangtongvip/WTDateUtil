@@ -13,7 +13,7 @@
 		741ECC9B212AAEA400A2570E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741ECC9A212AAEA400A2570E /* Assets.xcassets */; };
 		741ECC9E212AAEA400A2570E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741ECC9C212AAEA400A2570E /* LaunchScreen.storyboard */; };
 		741ECCA1212AAEA400A2570E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741ECCA0212AAEA400A2570E /* main.m */; };
-		741ECCA9212AAEB100A2570E /* WTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 741ECCA8212AAEB100A2570E /* WTDateUtil.m */; };
+		741ECCB1212ABD0B00A2570E /* WTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 741ECCB0212ABD0B00A2570E /* WTDateUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		741ECC9D212AAEA400A2570E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		741ECC9F212AAEA400A2570E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		741ECCA0212AAEA400A2570E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		741ECCA7212AAEB100A2570E /* WTDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTDateUtil.h; sourceTree = "<group>"; };
-		741ECCA8212AAEB100A2570E /* WTDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTDateUtil.m; sourceTree = "<group>"; };
+		741ECCAF212ABD0B00A2570E /* WTDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTDateUtil.h; sourceTree = "<group>"; };
+		741ECCB0212ABD0B00A2570E /* WTDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTDateUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +61,11 @@
 		741ECC90212AAEA200A2570E /* WTDateUtil */ = {
 			isa = PBXGroup;
 			children = (
+				741ECCAE212ABD0B00A2570E /* DateUtil */,
 				741ECC91212AAEA200A2570E /* AppDelegate.h */,
 				741ECC92212AAEA200A2570E /* AppDelegate.m */,
 				741ECC94212AAEA200A2570E /* ViewController.h */,
 				741ECC95212AAEA200A2570E /* ViewController.m */,
-				741ECCA7212AAEB100A2570E /* WTDateUtil.h */,
-				741ECCA8212AAEB100A2570E /* WTDateUtil.m */,
 				741ECC97212AAEA200A2570E /* Main.storyboard */,
 				741ECC9A212AAEA400A2570E /* Assets.xcassets */,
 				741ECC9C212AAEA400A2570E /* LaunchScreen.storyboard */,
@@ -74,6 +73,15 @@
 				741ECCA0212AAEA400A2570E /* main.m */,
 			);
 			path = WTDateUtil;
+			sourceTree = "<group>";
+		};
+		741ECCAE212ABD0B00A2570E /* DateUtil */ = {
+			isa = PBXGroup;
+			children = (
+				741ECCAF212ABD0B00A2570E /* WTDateUtil.h */,
+				741ECCB0212ABD0B00A2570E /* WTDateUtil.m */,
+			);
+			path = DateUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741ECCB1212ABD0B00A2570E /* WTDateUtil.m in Sources */,
 				741ECC96212AAEA200A2570E /* ViewController.m in Sources */,
 				741ECCA1212AAEA400A2570E /* main.m in Sources */,
 				741ECC93212AAEA200A2570E /* AppDelegate.m in Sources */,
-				741ECCA9212AAEB100A2570E /* WTDateUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

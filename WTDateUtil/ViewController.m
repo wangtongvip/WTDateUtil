@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"%@", [[NSDate date] dateTimeStringWithFormat:@"yyyy MM dd HH mm ss"]);
+    NSLog(@"%@", [[NSDate date] dateTimeStringWithFormat:@"yyyy年MM月dd日 HH:mm:ss"]);
 }
 
 
