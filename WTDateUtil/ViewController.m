@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSLog(@"%@", [[NSDate date] dateTimeStringWithFormat:@"yyyy年MM月dd日 HH:mm:ss"]);
 }

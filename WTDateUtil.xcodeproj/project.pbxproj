@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		741ECC93212AAEA200A2570E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741ECC92212AAEA200A2570E /* AppDelegate.m */; };
 		741ECC96212AAEA200A2570E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741ECC95212AAEA200A2570E /* ViewController.m */; };
-		741ECC99212AAEA200A2570E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741ECC97212AAEA200A2570E /* Main.storyboard */; };
 		741ECC9B212AAEA400A2570E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741ECC9A212AAEA400A2570E /* Assets.xcassets */; };
-		741ECC9E212AAEA400A2570E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741ECC9C212AAEA400A2570E /* LaunchScreen.storyboard */; };
 		741ECCA1212AAEA400A2570E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741ECCA0212AAEA400A2570E /* main.m */; };
 		741ECCB1212ABD0B00A2570E /* WTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 741ECCB0212ABD0B00A2570E /* WTDateUtil.m */; };
 /* End PBXBuildFile section */
@@ -22,9 +20,7 @@
 		741ECC92212AAEA200A2570E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		741ECC94212AAEA200A2570E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		741ECC95212AAEA200A2570E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		741ECC98212AAEA200A2570E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		741ECC9A212AAEA400A2570E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		741ECC9D212AAEA400A2570E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		741ECC9F212AAEA400A2570E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		741ECCA0212AAEA400A2570E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		741ECCAF212ABD0B00A2570E /* WTDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTDateUtil.h; sourceTree = "<group>"; };
@@ -66,9 +62,7 @@
 				741ECC92212AAEA200A2570E /* AppDelegate.m */,
 				741ECC94212AAEA200A2570E /* ViewController.h */,
 				741ECC95212AAEA200A2570E /* ViewController.m */,
-				741ECC97212AAEA200A2570E /* Main.storyboard */,
 				741ECC9A212AAEA400A2570E /* Assets.xcassets */,
-				741ECC9C212AAEA400A2570E /* LaunchScreen.storyboard */,
 				741ECC9F212AAEA400A2570E /* Info.plist */,
 				741ECCA0212AAEA400A2570E /* main.m */,
 			);
@@ -141,9 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				741ECC9E212AAEA400A2570E /* LaunchScreen.storyboard in Resources */,
 				741ECC9B212AAEA400A2570E /* Assets.xcassets in Resources */,
-				741ECC99212AAEA200A2570E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,25 +154,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		741ECC97212AAEA200A2570E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				741ECC98212AAEA200A2570E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		741ECC9C212AAEA400A2570E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				741ECC9D212AAEA400A2570E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		741ECCA2212AAEA400A2570E /* Debug */ = {
@@ -234,7 +207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -286,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -299,6 +272,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WTDateUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +289,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WTDateUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
