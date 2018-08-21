@@ -1,6 +1,12 @@
 # WTDateUtil
 NSDate Extensions
 
+******
+USE IT AND YOU WILL LOVE IT
+
+pod 'WTDateUtil', '~> 1.0.1'
+******
+
 ### 1、日期推算
 基于一个日期，推算几个月前、几个月后、几天前、几天后、几小时前、几小时后、几分钟前、几分钟后的日期。
 
